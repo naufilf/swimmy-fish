@@ -181,7 +181,6 @@ public class SwimmyFish extends JPanel implements ActionListener, KeyListener {
     public void keyPressed(KeyEvent e) {
        if (e.getKeyCode() == KeyEvent.VK_SPACE) {
             velocityY = -9;
-            System.out.println("Jump!"); 
        }
 
        if (e.getKeyCode() == KeyEvent.VK_R) {
